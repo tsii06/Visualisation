@@ -49,7 +49,7 @@ CREATE TABLE population (
     id_tranche_age INTEGER NOT NULL REFERENCES tranche_age(id),  -- Référence à la tranche d'âge
     annee INTEGER NOT NULL,  -- Année de la donnée de population
     population_masculine INTEGER NOT NULL,  -- Nombre d'hommes dans la zone
-    population_feminine INTEGER NOT NULL,  -- Nombre de femmes dans la zone
+  	population_feminine INTEGER NOT NULL -- Nombre de femmes dans la zone
 );
 
 
