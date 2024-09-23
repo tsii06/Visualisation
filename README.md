@@ -1,4 +1,4 @@
-# TanaMobility
+# Visualisation de flux de transport
 
 Visualisation et Modélisation des Flux de Transport à Antananarivo.
 
@@ -64,7 +64,7 @@ Ce projet utilise une base de données PostgreSQL pour stocker et gérer les don
 Clonez ce repository et installez les dépendances nécessaires :
 
 ```bash
-git clone https://github.com/tsii06/TanaMobility.git
+git clone https://github.com/tsii06/Visualisation.git
 cd TanaMobility
 pip install -r environement/requirements.txt
 ```
