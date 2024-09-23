@@ -416,7 +416,6 @@ def insert_routes_from_geojson_with_hierarchy(geojson_path):
 
         # Valider les changements
         session.commit()
-        print(f"{len(route_data)} enregistrements ont été insérés dans la table route.")
 
     except SQLAlchemyError as e:
         # Rollback en cas d'erreur SQL

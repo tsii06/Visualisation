@@ -1,3 +1,5 @@
+from decimal import Decimal
+
 import pandas as pd
 import geopandas as gpd
 
@@ -6,28 +8,36 @@ from sqlalchemy import MetaData, Table, select, func  # Pour interagir avec la b
 
 from src.data.utils import loadGeojson
 
-
 def loadPopulationCarte():
-    gdf_geojson = loadGeojson()
-    session = get_session()
-    metadata = MetaData()
+    gdf_geojson = loadGeojson()  # Charger les données GeoJSON
+    session = get_session()  # Ouvrir une session
+    metadata = MetaData()  # Métadonnées pour la table
 
-    # Charger la vue population_view
+    # Charger la vue population_view depuis la base de données
     population_view = Table('population_view', metadata, autoload_with=session.bind)
-
     query = select(population_view)
 
     # Exécuter la requête et récupérer les résultats
     result = session.execute(query).fetchall()
 
+    # Convertir les résultats en DataFrame
     df_population = pd.DataFrame(result, columns=population_view.columns.keys())
+
+    # Convertir 'identifiant_commune' en chaînes de caractères minuscules
     df_population['identifiant_commune'] = df_population['identifiant_commune'].astype(str).str.lower()
-    gdf_merged = gdf_geojson.merge(df_population, how='inner', left_on='ensemble_concat',
-                                   right_on='identifiant_commune')
+
+    # Fusionner les données GeoJSON et population
+    gdf_merged = gdf_geojson.merge(df_population, how='inner', left_on='ensemble_concat', right_on='identifiant_commune')
+
+    # Fermer la session
     session.close()
 
-    return gdf_merged
+    # Vérifier et convertir les objets de type Decimal en float pour éviter l'erreur JSON
+    for col in gdf_merged.select_dtypes(include=['object']).columns:
+        if gdf_merged[col].apply(lambda x: isinstance(x, Decimal)).any():
+            gdf_merged[col] = gdf_merged[col].astype(float)
 
+    return gdf_merged
 
 def loadRepartitionZonale():
     # Exemple de chemin d'accès au fichier GeoJSON (à adapter en figure de votre fichier réel)

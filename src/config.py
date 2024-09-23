@@ -1,5 +1,5 @@
 DATABASE_CONFIG = {
-    'dbname': 'mobilite',
+    'dbname': 'mob',
     'user': 'postgres',
     'password': 'pronokeys06',
     'host': 'localhost',

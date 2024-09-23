@@ -1,10 +1,6 @@
-import json
-import os
-
-import psutil
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
-
+import simplejson as json
 from src.callbacks.accueil_click_map_callback import register_click_map_callback, plein_ecran_carte
 from src.callbacks.carte_ligne_bus_update_callback import carte_ligne_bus
 from src.callbacks.detail_callback import detail_callback
@@ -13,6 +9,7 @@ from src.callbacks.accueil_legend_update_callback import register_legend_callbac
 from src.callbacks.ligne_bus_map_callback import ligne_bus_map_callback
 from src.callbacks.page_content_update_callback import page_callback
 from src.callbacks.scenario_callback import scenario_callback
+from src.callbacks.scenario_create_content_callback import scenario_content_callback
 from src.callbacks.type_visualisation_callback import selection_callback
 from src.components.accueil.header import header
 
@@ -23,7 +20,7 @@ from src.data.traitement_data_spatiale import loadPopulationCarte, loadRepartiti
     get_congestion_point
 from src.data.utils import extract_lat_lon
 from src.figure.bus_graph import prepare_dataframe, extract_bus_stops_from_geojson
-from src.figure.carte import  load_and_prepare_traffic_data
+from src.figure.carte import load_and_prepare_traffic_data
 
  # Remplacez par le chemin de votre répertoire
 combined_dataframe = getAllLigne()
@@ -62,6 +59,8 @@ selection_callback(app)
 detail_callback(app)
 scenario_callback(app)
 ligne_bus_map_callback(app)
+
+scenario_content_callback(app)
 
 carte_ligne_bus(app,prepared_dataframe,gdf_geojson,stops)
 

@@ -2,19 +2,9 @@ import dash
 from dash import dcc, html, Input, Output, State
 import dash_bootstrap_components as dbc
 import pandas as pd
-import plotly.express as px
 
-# Création d'un exemple de DataFrame
-data = {
-    'zone_id': ['Zone 1', 'Zone 2', 'Zone 3'],
-    'current_population': [5000, 8000, 3000],  # Population actuelle
-    'current_traffic': [200, 350, 120],  # Trafic en véhicules par heure
-    'current_co2': [150, 280, 90],  # Émissions de CO2 en tonnes par an
-    'housing_units': [1000, 1500, 800],  # Nombre d'unités de logement
-    'commercial_area': [10, 15, 5]  # Surface commerciale en hectares
-}
-
-df_zone = pd.DataFrame(data)
+from src.components.scenario.form_elements import form_element
+from src.components.scenario.kpi import kip_cards
 
 
 def simulation():
@@ -23,67 +13,33 @@ def simulation():
 
     :return: Composant html.Div contenant l'interface de simulation.
     """
-    return html.Div([
-        html.H1("Simulation des Scénarios de Développement Urbain"),
+    return dbc.Container([
+    dbc.Row([
+        # Colonne de gauche pour le formulaire
+        dbc.Col([
+            # Utiliser la variable 'form_elements'
+            form_element(),
 
-        dbc.Row([
-            dbc.Col([
-                html.Label("Sélectionnez une zone"),
-                dcc.Dropdown(
-                    id='zone-selector',
-                    options=[{'label': zone, 'value': zone} for zone in df_zone['zone_id']],
-                    value='Zone 1'
-                ),
-            ]),
-        ]),
+            # Bouton pour déclencher le calcul
+            dbc.Button('Calculer', id='btn-calc', n_clicks=0, color='primary'),
+        ], width=3),  # Largeur de 3 colonnes Bootstrap pour le formulaire
 
-        dbc.Row([
-            dbc.Col([
-                html.Label("Ajout de nouvelles unités de logement"),
-                dcc.Slider(
-                    id='housing-slider',
-                    min=0,
-                    max=1000,
-                    step=50,
-                    value=0,
-                    marks={i: f'{i} unités' for i in range(0, 1001, 200)},
-                ),
-            ]),
-        ]),
+        # Colonne de droite pour les visualisations
+        dbc.Col([
+            dbc.Row([
+            # Ligne pour le graphique
+                dbc.Col([
+                    html.Div(id='graph-container')  # Use a div to receive the graph from callback
+                ], width=4, className="mb-4"),
 
-        dbc.Row([
-            dbc.Col([
-                html.Label("Ajout de nouvelles zones commerciales (hectares)"),
-                dcc.Slider(
-                    id='commercial-slider',
-                    min=0,
-                    max=20,
-                    step=1,
-                    value=0,
-                    marks={i: f'{i} ha' for i in range(0, 21, 5)},
-                ),
-            ]),
-        ]),
-
-        dbc.Row([
-            dbc.Col([
-                dbc.Button("Simuler le scénario", id="simulate-btn", color="primary", className="w-100"),
-            ]),
-        ], className="my-3"),
-
-        dbc.Row([
-            dbc.Col([
-                html.H3("Résultats du Scénario Simulé"),
-                dcc.Graph(id='simulation-results'),
-                html.Div(id='scenario-description', style={'margin-top': '20px'})
+                # Ligne pour les KPI cards et le tableau
+                dbc.Col([
+                    # Cartes KPI
+                    dbc.Col(kip_cards(), width=12),
+                    # Tableau des résultats
+                    dbc.Col(html.Div(id='table-results'), width=12)
+                ], width=8, className="mb-4")
             ])
-        ])
-    ], style={
-        'background-color': '#f9f9f9',  # Couleur de fond gris clair
-        'border-radius': '8px',  # Coins arrondis
-        'margin': '30px',  # Espace entre les divs
-        'padding': '30px',
-        'display': 'flex',
-        'flex-direction': 'column',
-        'justify-content': 'center'
-    })
+        ], width=9, style={'backgroundColor': '#f8f9fa' })  # Background color for the right column
+    ])
+], fluid=True)
