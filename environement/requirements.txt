@@ -13,3 +13,4 @@ seaborn
 SQLAlchemy
 waitress
 psycopg2
+psutil
