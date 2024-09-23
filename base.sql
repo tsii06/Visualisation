@@ -1,5 +1,5 @@
 CREATE database mobilite;
-/c mobilite;
+\c mobilite;
 
 CREATE TABLE zones (
     id SERIAL PRIMARY KEY,
@@ -50,7 +50,6 @@ CREATE TABLE population (
     annee INTEGER NOT NULL,  -- Année de la donnée de population
     population_masculine INTEGER NOT NULL,  -- Nombre d'hommes dans la zone
     population_feminine INTEGER NOT NULL,  -- Nombre de femmes dans la zone
-    UNIQUE(annee)
 );
 
 
@@ -145,6 +144,18 @@ CREATE TABLE iri (
 );
 
 
+CREATE  TABLE lignebus ( 
+	id                   serial  NOT NULL PRIMARY KEY ,
+	numero_ligne         varchar(50)    
+ );
+
+CREATE  TABLE ligneroute ( 
+	id                   serial  NOT NULL PRIMARY KEY ,
+	id_ligne             integer   REFERENCES lignebus(id) ,
+	id_route             integer   REFERENCES route(id) 
+ );
+
+
 -- view --
 CREATE OR REPLACE VIEW population_view AS 
    SELECT 
@@ -188,7 +199,7 @@ CREATE VIEW population_par_tranche_age AS
    JOIN 
        tranche_age ta ON p.id_tranche_age = ta.id
    GROUP BY 
-       ta.tranche
+       ta.tranche,ta.age_min
    ORDER BY 
        ta.age_min;
 
@@ -271,13 +282,16 @@ SELECT
     mo.id_destination,
     zd.identifiant_commune AS nom_destination,
     mo.id_type_vehicule,
+    t.nom_type as type_vehicule,
     mo.nombre
 FROM
     matrice_od mo
 JOIN
     zones zo ON mo.id_origine = zo.id
 JOIN
-    zones zd ON mo.id_destination = zd.id;
+    zones zd ON mo.id_destination = zd.id
+ JOIN 
+ 	types_vehicules t ON t.id = mo.id_type_vehicule;
 
 
 
