@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-08-22 17:18:25 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="bs_1010215" name="Arrêt_Behoririka_SODIAT_1" lane="28930215#0_1" startPos="32.92" endPos="42.97" friendlyPos="true" lines="109, 157, 126, 183, 186" personCapacity="22" color="red"/>
+    <busStop id="bs_1010478" name="Arrêt_Jovenna_Ambatomainty" lane="563180478_1" startPos="36.62" endPos="46.62" friendlyPos="true" lines="H, 157, 186, 183" personCapacity="22" color="green"/>
+    <busStop id="bs_1010485" name="Arrêt Analamahitsy Ecole" lane="563180485#3_1" startPos="10.20" endPos="20.20" friendlyPos="true" lines="H, 163, 192" personCapacity="22" color="red"/>
+    <busStop id="bs_10108580" name="Arrêt_Antsofinondry_retour" lane="-639908580#41_1" startPos="67.80" endPos="77.80" friendlyPos="true" lines="H" personCapacity="22" color="green"/>
+    <busStop id="bs_10109344" name="Arrêt_ecole_analamahitsy" lane="430093441#4_0" startPos="126.01" endPos="136.01" friendlyPos="true" lines="H, 192, 163" personCapacity="22" color="green"/>
+    <busStop id="bs_1011335" name="Arret_Analamahitsy_fiakarana" lane="40421335#8.32_1" startPos="37.35" endPos="47.35" lines="H, 109, 163, 192" personCapacity="22" color="red"/>
+    <busStop id="bs_1011363" name="Arrêt_Andravoahangy_Mascar" lane="402321363_1" startPos="8.82" endPos="18.82" friendlyPos="true" lines="126, 186, 109, 152" personCapacity="22" color="red"/>
+    <busStop id="bs_10115048" name="Arrêt_TsenaKely_Ambohitrarahaba" lane="-525150488#3_1" startPos="103.36" endPos="113.36" friendlyPos="true" lines="H, 192, 163" personCapacity="22" color="green"/>
+    <busStop id="bs_101150488" name="Arrêt_Atsahamaina" lane="525150488#3_1" startPos="242.91" endPos="252.91" friendlyPos="true" lines="H, 192, 163" personCapacity="22" color="red"/>
+    <busStop id="bs_10118048" name="Arrêt_Ambohitrarahaba_retour" lane="-563180485#0_1" startPos="38.34" endPos="48.34" friendlyPos="true" lines="H, 109, 163" personCapacity="22" color="green"/>
+    <busStop id="bs_1011862" name="Arrêt_Anosy_RNM" lane="178550874#0_1" startPos="26.69" endPos="36.69" friendlyPos="true" lines="GA, 133, 140, 157, 109, 126, 183, 114, 119" personCapacity="22" color="green"/>
+    <busStop id="bs_1012008" name="Arrêt_Senat" lane="27362008#1.106_1" startPos="4.42" endPos="14.42" friendlyPos="true" lines="154, 137 113" personCapacity="22" color="red"/>
+    <busStop id="bs_10120082" name="Arrêt_Parking_Toby" lane="27362008#1.485_1" startPos="16.35" endPos="26.35" friendlyPos="true" lines="154, 166, 180" personCapacity="22" color="red"/>
+    <busStop id="bs_10120084" name="Arrêt_Jirama_Andrefanambohijanahary" lane="27362008#4.66_1" startPos="30.19" endPos="40.19" friendlyPos="true" lines="154, 1130137" personCapacity="22" color="red"/>
+    <busStop id="bs_1012109" name="Arrêt_Sampanan_ny_Fasan-karana" lane="27362109#0_1" startPos="394.52" endPos="404.52" friendlyPos="true" lines="113, 135, 136, 139, 140, 142, 150, 154, 163, 172, 173, 187, 194" personCapacity="22" color="red"/>
+    <busStop id="bs_1012118" name="Arret_Descours_Fiadanana_Anosy" lane="27362118#0_1" startPos="21.44" endPos="31.44" friendlyPos="true" lines="154 137 113"/>
+    <busStop id="bs_10122006" name="Arrêt_Manjaka_aller" lane="580822006#1_1" startPos="34.86" endPos="44.86" friendlyPos="true" lines="H, 192, 163" personCapacity="22" color="red"/>
+    <busStop id="bs_10124029" name="Arrêt_Ankadikely_retour" lane="-28824029#8.50_1" startPos="33.28" endPos="43.28" friendlyPos="true" lines="H" personCapacity="22" color="green"/>
+    <busStop id="bs_1012870_1" name="Terminus_D-Ivato_Vassacoss" lane="-28916170_1" startPos="15.40" endPos="45.40" friendlyPos="true" lines="D-Ivato"/>
+    <busStop id="bs_1012882" name="Arrêt_Anosizato_Atsinanana" lane="28823519#2.44_1" startPos="37.60" endPos="47.60" friendlyPos="true" lines="G, 140" personCapacity="22" color="red"/>
+    <busStop id="bs_10128821" name="Arrêt_Anosy_solimotel" lane="28823191#1.13_1" startPos="20.64" endPos="30.64" friendlyPos="true" lines="162, 165, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_101288210" name="Arrêt_Anosizato_Coca" lane="-564942677_1" startPos="11.98" endPos="21.98" friendlyPos="true" lines="110, 140, J" personCapacity="22" color="green"/>
+    <busStop id="bs_101288211" name="Arrêt_Ampitatafika_Essence" lane="-28823413#2_0" startPos="10.66" endPos="20.66" friendlyPos="true" lines="140, J" personCapacity="22" color="green"/>
+    <busStop id="bs_101288212" name="Arrêt_Essence_Ampitatafika_Aller" lane="28823413#2.115_1" startPos="9.07" endPos="19.07" friendlyPos="true" lines="140, J, G" personCapacity="22" color="red"/>
+    <busStop id="bs_101288213" name="Arrêt_Antanimenakely_Anosizato_Aller" lane="28823413#3.467_1" startPos="16.53" endPos="26.53" friendlyPos="true" lines="140, J, G" personCapacity="22" color="red"/>
+    <busStop id="bs_10128822" name="Arrêt_Anosy_FID" lane="28823191#6.56_1" startPos="30.55" endPos="40.55" friendlyPos="true" lines="162, 165, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_10128823" name="Arrêt_Anosy_Voninkazo" lane="28823171#0.60_1" startPos="14.84" endPos="24.84" friendlyPos="true" lines="140, 150, 157, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_10128824" name="Arrêt_Anosy_HJRA" lane="28823171#3.78_0" startPos="19.18" endPos="29.18" friendlyPos="true" lines="140, 150, 157, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_10128825" name="Arrêt_Pharmacie_Anosibe" lane="28823203#1_1" startPos="40.70" endPos="50.70" friendlyPos="true" lines="140, 150, 157, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_10128826" name="Arrêt_Anosibe_Vavahady_Manga" lane="430100400_1" startPos="41.87" endPos="51.87" friendlyPos="true" lines="140, 150, 157, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_10128827" name="Arrêt_Anosibe_THB-R" lane="430100400_1" startPos="289.39" endPos="299.39" friendlyPos="true" lines="140, 150, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_10128828" name="Arrêt_Anosizato_Salama" lane="430100389_1" startPos="21.38" endPos="31.38" friendlyPos="true" lines="140, 150, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_10128829" name="Arrêt_Anosizato_Andrefana" lane="-28823429#0_0" startPos="21.51" endPos="31.51" friendlyPos="true" lines="140, J" personCapacity="22" color="green"/>
+    <busStop id="bs_1012886" name="Arrêt_Ankorondrano_LP" lane="28863232#0.66_1" startPos="29.81" endPos="39.81" friendlyPos="true" lines="192, 186, 162, 194" color="red"/>
+    <busStop id="bs_1012891" name="Arrêt_Anosy_face_Senat" lane="28914917#1_1" startPos="20.76" endPos="40.76" friendlyPos="true" lines="109, 126, 183, 154, 162, 165, 105, 114, 172, 186, 180" personCapacity="22" color="red"/>
+    <busStop id="bs_1012892" name="Arrêt_Anosy_Tribonaly" lane="28929839#2.70_1" startPos="21.78" endPos="31.78" friendlyPos="true" lines="140, 015, 109, 193, 183" personCapacity="22" color="red"/>
+    <busStop id="bs_10128921" name="Arrêt_Anosy_Carlton" lane="28929933#0.86_1" startPos="39.76" endPos="49.76" friendlyPos="true" lines="140, 015, 109, 193, 183" personCapacity="22" color="red"/>
+    <busStop id="bs_1012907" name="Arrêt_Ampefiloha_CNAPS" lane="29078904.78_1" startPos="17.49" endPos="27.49" friendlyPos="true" lines="140, 015, 109, 193, 183" personCapacity="22" color="red"/>
+    <busStop id="bs_10129071" name="Arrêt_Isotry_Idealy" lane="29078894#1.114_1" startPos="5.71" endPos="15.71" friendlyPos="true" lines="A, 133, 140, 157" personCapacity="22" color="green"/>
+    <busStop id="bs_10129072" name="Arrêt_Isotry_Ambalavao" lane="48369294_1" startPos="148.60" endPos="158.60" friendlyPos="true" lines="A, 133, 140, 157" personCapacity="22" color="green"/>
+    <busStop id="bs_1013124" name="Arrêt_Ankadimbahoaka_Fasika" lane="312430381#1_0" startPos="27.17" endPos="37.17" friendlyPos="true" lines="139, 154, 172, 173, 187" personCapacity="22" color="red"/>
+    <busStop id="bs_1013332" name="Arrêt_Ambatomainty_Fidy" lane="565743332#2_1" startPos="25.45" endPos="35.45" friendlyPos="true" lines="126, 183, 186, 109, 152, H" personCapacity="22" color="red"/>
+    <busStop id="bs_10133325" name="Arrêt_Ambatomainty_Jovenna" lane="565743332#5.21_1" startPos="14.60" endPos="24.60" friendlyPos="true" lines="126, 183, 186, 109, 152, H" personCapacity="22" color="red"/>
+    <busStop id="bs_1014029" name="Arrêt_Tetezana_SabNam" lane="-28824029#0_1" startPos="44.00" endPos="54.00" friendlyPos="true" lines="H" personCapacity="22" color="green"/>
+    <busStop id="bs_1014301" name="Arrêt_Anosibe_THB" lane="430100397.25_1" startPos="49.41" endPos="59.41" friendlyPos="true" lines="162, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_10143010" name="Arrêt_Anosizato_Parking" lane="430100406#0.78_0" startPos="6.83" endPos="16.83" friendlyPos="true" lines="162, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_10143011" name="Arrêt_Anosibe_Pharmacie" lane="430100401_1" startPos="11.32" endPos="21.32" friendlyPos="true" lines="162, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_101430114" name="Arrêt_Anosibe_Barriere" lane="430100402.119.144_1" startPos="5.50" endPos="15.50" friendlyPos="true" lines="162, 165, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_10143012" name="Arrêt_Anosibe_Akoho" lane="430100401.264_1" startPos="33.98" endPos="43.98" friendlyPos="true" lines="162, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_10143013" name="Arrêt_Anosibe_Tsena" lane="430100402.94_1" startPos="6.09" endPos="16.09" friendlyPos="true" lines="162, 165, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_10143015" name="Arrêt_Anosibe_TsenaR" lane="430100405#3_1" startPos="50.01" endPos="60.01" friendlyPos="true" lines="140, 150, 157, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_10143016" name="Arrêt_Anosibe_AkohoR" lane="430100395_1" startPos="64.36" endPos="74.36" friendlyPos="true" lines="140, 150, 157, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_10143017" name="Arrêt_Anosibe_Pharmacie_Volahanta" lane="430100395_1" startPos="318.23" endPos="328.23" friendlyPos="true" lines="140, 150, 157, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_1014550" name="Arrêt_Isotry_Assurance-MAMA" lane="45185054#0.144_1" startPos="10.85" endPos="20.85" friendlyPos="true" lines="140, 015, 109, 193, 183" personCapacity="22" color="red"/>
+    <busStop id="bs_1014596" name="Arrêt_Andranobevava_Aller" lane="28884596#0.32_1" startPos="10.20" endPos="20.20" friendlyPos="true" lines="126, 183, 186, 109, 163, H" personCapacity="22" color="red"/>
+    <busStop id="bs_1014617" name="arrêt_TOTAL_Ambodivona" lane="28884617#0.267_1" startPos="39.17" endPos="49.17" friendlyPos="true" lines="H, 157, 186, 183" personCapacity="22" color="green"/>
+    <busStop id="bs_1014619" name="Arrêt_Manjakaray_EKAR" lane="28884619#0_1" startPos="22.36" endPos="32.36" friendlyPos="true" lines="H, 194, 183" personCapacity="22" color="red"/>
+    <busStop id="bs_10146192" name="Arrêt_Ambodivona_23" lane="28884619#2_1" startPos="24.32" endPos="34.32" friendlyPos="true" lines="H, 194, 157, 183" personCapacity="22" color="red"/>
+    <busStop id="bs_1014855" name="Arrêt_Tsaralalana_Cotona" lane="48550509_1" startPos="13.77" endPos="23.77" friendlyPos="true" lines="110" personCapacity="22" color="red"/>
+    <busStop id="bs_1015185" name="Arrêt_Analamahitsy_Dispensaire" lane="45195185#1_1" startPos="16.44" endPos="26.44" friendlyPos="true" lines="126, 183, 186, 109, 163" personCapacity="22" color="red"/>
+    <busStop id="bs_1015205" name="Arrêt_Antanimenakely_Anosizato" lane="-520536078.227_1" startPos="12.26" endPos="22.26" friendlyPos="true" lines="110, 140, J" personCapacity="22" color="green"/>
+    <busStop id="bs_1015317" name="Arrêt_Petite_Vitesse" lane="531720072#1.44_1" startPos="10.62" endPos="20.62" friendlyPos="true" lines="A, 133, 140, 157" personCapacity="22" color="green"/>
+    <busStop id="bs_1015425" name="Arrêt_Tanjombato_35" lane="542597758#2.39_0" startPos="28.74" endPos="38.74" friendlyPos="true" lines="139, 154, 172, 173, 187" personCapacity="22" color="red"/>
+    <busStop id="bs_1015430" name="Arrêt_Anosizato_Coca_Aller" lane="543098490#2_1" startPos="30.98" endPos="40.98" friendlyPos="true" lines="140, J, G" personCapacity="22" color="red"/>
+    <busStop id="bs_1015642" name="Arrêt_Anosizato_face_Loharano" lane="564210444#1_1" startPos="19.09" endPos="29.09" friendlyPos="true" lines="140, J, G" personCapacity="22" color="red"/>
+    <busStop id="bs_10156421" name="Arrêt_Ambodifilao" lane="564233532.55_1" startPos="21.81" endPos="31.81" friendlyPos="true" lines="110 133" personCapacity="22" color="green"/>
+    <busStop id="bs_1015774" name="Arrêt_Anosizato_Atsinanana" lane="577465786.30_1" startPos="15.22" endPos="25.22" friendlyPos="true" lines="140, 150, 162, G" personCapacity="22" color="green"/>
+    <busStop id="bs_1015904" name="Arrêt_Ambodivona_Espoir" lane="532005804#0_1" startPos="15.80" endPos="25.80" friendlyPos="true" lines="H, 157, 183" personCapacity="22" color="red"/>
+    <busStop id="bs_1016012" name="Arrêt_Behoririka_Ambany-tetezana" lane="28916012#4_1" startPos="23.00" endPos="33.00" friendlyPos="true" lines="109, 157, 126, 183, 186" personCapacity="22" color="red"/>
+    <busStop id="bs_1016033" name="Arrêt_Ambodivona_Cotisse" lane="202146033#1.68_1" startPos="14.10" endPos="24.10" friendlyPos="true" lines="194" personCapacity="22" color="red"/>
+    <busStop id="bs_1016411" name="Arrêt_Amboditsiry_Pharmacie" lane="591776411#0.16_1" startPos="12.63" endPos="22.63" friendlyPos="true" lines="126, 183, 186, 109, 163" personCapacity="22" color="red"/>
+    <busStop id="bs_1017108" name="Arrêt_Salama_Anosizato" lane="71080591#1.22_0" startPos="7.65" endPos="17.65" friendlyPos="true" lines="162, 140, G" personCapacity="22" color="red"/>
+    <busStop id="bs_1017140" name="Arrêt_ex_ROSO_Analakely" lane="591357140.51_1" startPos="24.90" endPos="34.90" friendlyPos="true" lines="109, 126,183, 186" personCapacity="22" color="red"/>
+    <busStop id="bs_1017169" name="Arrêt_Mandialaza_Andravoahangy" lane="117187169#0_1" startPos="11.00" endPos="21.00" friendlyPos="true" lines="109, 157, 126, 183, 186" personCapacity="22" color="red"/>
+    <busStop id="bs_10180485" name="Arrêt Ambohitrarahaba" lane="525150488#8.43_1" startPos="22.20" endPos="32.20" friendlyPos="true" lines="H, 163, 192" personCapacity="22" color="red"/>
+    <busStop id="bs_1018147" name="Arrêt Descours_Fiadanana" lane="77338147#2.539_1" startPos="7.63" endPos="17.63" friendlyPos="true" lines="154 113 137" personCapacity="22" color="red"/>
+    <busStop id="bs_101822773" name="Arrêt_Analamahitsy_retour" lane="45822773#0_1" startPos="16.43" endPos="26.43" friendlyPos="true" lines="H, 157, 186, 183" personCapacity="22" color="green"/>
+    <busStop id="bs_10184596" name="Arrêt_SuperMaki_Amboditsiry" lane="-28884596#2_1" startPos="107.05" endPos="117.05" friendlyPos="true" lines="H, 157, 186, 183" personCapacity="22" color="green"/>
+    <busStop id="bs_1018582" name="Arret_Andravoahangy_Mascar" lane="-639908582_1" startPos="13.48" endPos="23.48" friendlyPos="true" lines="152 109 186 126"/>
+    <busStop id="bs_10188459" name="Arrêt_Andranobevava_retour" lane="-28884596#0_1" startPos="52.13" endPos="62.13" friendlyPos="true" lines="H, 157, 186, 183" personCapacity="22" color="green"/>
+    <busStop id="bs_101908580" name="Arrêt_Poste_Antsofinondry" lane="-639908580#43_1" startPos="89.92" endPos="99.92" friendlyPos="true" lines="H" personCapacity="22" color="green"/>
+    <busStop id="bs_10193441" name="Arrêt_Analamahitsy_RDA" lane="430093441#2_1" startPos="22.80" endPos="32.80" friendlyPos="true" lines="H, 157, 186, 183" personCapacity="22" color="green"/>
+    <busStop id="bs_1019561" name="Arrêt_Anjanahary_IIS" lane="590449561#0.138_1" startPos="23.61" endPos="33.61" friendlyPos="true" lines="126, 186, 109, 152" personCapacity="22" color="red"/>
+    <busStop id="bs_1019799" name="Arrêt_Shalimar_Analakely" lane="40489799.85_1" startPos="33.18" endPos="43.18" friendlyPos="true" lines="109, 126,183, 186" personCapacity="22" color="red"/>
+    <busStop id="bs_1030734" name="Arrêt_Sab_nam" lane="910820734_1" startPos="6.42" endPos="16.42" friendlyPos="true" lines="H" personCapacity="22" color="red"/>
+    <busStop id="bs_1034029" name="Arrêt_Ankadikely" lane="28824029#8.67_1" startPos="10.77" endPos="20.77" friendlyPos="true" lines="H" personCapacity="22" color="red"/>
+    <busStop id="bs_1038580" name="Arrêt Anosy_Avaratra" lane="639908580#30.326_1" startPos="25.02" endPos="35.02" lines="H" personCapacity="22" color="red"/>
+    <busStop id="bs_103858038" name="Antsofinondry" lane="639908580#38.199_1" startPos="37.80" endPos="47.80" lines="H" personCapacity="22" color="red"/>
+    <busStop id="bs_103908580" name="Arrêt_Anosy_avaratra" lane="-639908580#30_1" startPos="167.06" endPos="177.06" friendlyPos="true" lines="H" personCapacity="22" color="green"/>
+    <busStop id="bs_1114_0" name="Arret_Pullman_Ivandry" lane="-110767114_1" startPos="1.84" endPos="11.84" friendlyPos="true" lines="194"/>
+    <busStop id="bs_1162_1" name="Arret_Tsena_Andravoahangy" lane="117187162_1" startPos="12.36" endPos="22.36" friendlyPos="true" lines="194"/>
+    <busStop id="bs_12_1" name="Arret_Jesosy_Mamonjy_Ankorondrano" lane="E12_1" startPos="1.84" endPos="11.84" friendlyPos="true" lines="180"/>
+    <busStop id="bs_14085_1" name="Arret_Bassin_Analamahitsy" lane="40383085_1" startPos="29.89" endPos="39.89" friendlyPos="true" lines="194"/>
+    <busStop id="bs_15603_0" name="Arret_Ampasika" lane="566309503#0_1" startPos="5.69" endPos="15.69" friendlyPos="true" lines="133_cite 133_Hopital"/>
+    <busStop id="bs_1806_0" name="Arret_Domaine_Alasora_Ankadindratombo" lane="-186254006#0_1" startPos="698.75" endPos="708.75" friendlyPos="true" lines="194_maintso"/>
+    <busStop id="bs_1806_0_1" name="Arret_Domaine_Alasora_Bypass" lane="186254006#0_1" startPos="58.42" endPos="68.42" friendlyPos="true" lines="194_maintso"/>
+    <busStop id="bs_1808_0" name="Arret_domaine_Alasora" lane="186254008#0_1" startPos="5.21" endPos="15.21" friendlyPos="true" lines="E_Alasora 163"/>
+    <busStop id="bs_1810" name="Arret_Antanimora" lane="-186254010#0_1" startPos="349.05" endPos="359.05" friendlyPos="true" lines="194_maintso"/>
+    <busStop id="bs_1823_1" name="Arret_Andravoahangy_Ambony" lane="183427323#1_1" startPos="115.83" endPos="125.83" friendlyPos="true" lines="122 160 166 180"/>
+    <busStop id="bs_1826" name="Arret_Tsena_Ambanidia" lane="183432426#2_1" startPos="11.24" endPos="21.24" friendlyPos="true" lines="129 196 1164 015"/>
+    <busStop id="bs_20_1" name="Terminus_017_Mahamasina" lane="E20_1" startPos="82.32" endPos="92.32" friendlyPos="true" lines="017"/>
+    <busStop id="bs_20_1_0" name="Arret_Mahamasina" lane="E20_1" startPos="102.52" endPos="112.52" friendlyPos="true" lines="015"/>
+    <busStop id="bs_22872" name="Arret_fiavo" lane="28884472#15_1" startPos="49.43" endPos="59.43" friendlyPos="true" lines="129 164 180 196 182_mena 182_manga"/>
+    <busStop id="bs_24506_1_1" name="Arret_Akondro_Ambolokandrina" lane="-45023506#1_1" startPos="30.52" endPos="40.52" friendlyPos="true" lines="180 196 182_mena 182_manga"/>
+    <busStop id="bs_24506_7" name="Arret_Garage_Ambolokandrina" lane="45023506#7_1" startPos="6.22" endPos="16.22" friendlyPos="true" lines="196 180 182_mena 182_manga"/>
+    <busStop id="bs_26028_1_1" name="Arret_Shell_Mandroseza_Amohimiandra" lane="605943528#1_1" startPos="2.31" endPos="12.31" friendlyPos="true" lines="015 194_maintso"/>
+    <busStop id="bs_2804_3" name="Arret_Jirama_Andavamamba" lane="28916404#3_1" startPos="5.77" endPos="15.77" friendlyPos="true" lines="119 172 147 146 178"/>
+    <busStop id="bs_2808_1" name="Terminus_192_Ambohimanambola" lane="28821408#1_1" startPos="0.91" endPos="10.91" friendlyPos="true" lines="192"/>
+    <busStop id="bs_2813" name="Arret_Parking_67ha" lane="28916213#1_1" startPos="44.31" endPos="54.31" friendlyPos="true" lines="147 146 178"/>
+    <busStop id="bs_2813_1" name="Arret_Parking_vers_Antohomadinika" lane="-28916213#1_1" startPos="18.03" endPos="28.03" friendlyPos="true" lines="146 147 178"/>
+    <busStop id="bs_2820_4_1" name="Arret_Jirama_mandroseza_Ambohimiandra" lane="28884220#4_1" startPos="45.90" endPos="55.90" friendlyPos="true" lines="015 194_maintso E_Alasora"/>
+    <busStop id="bs_2820_9" name="Arret_Ambohimiandra" lane="-28884220#9_1" startPos="4.73" endPos="14.73" friendlyPos="true" lines="194_maintso 015"/>
+    <busStop id="bs_2820_9_1" name="Arret_Ceg_Ambohimiandra" lane="28884220#9_1" startPos="12.80" endPos="22.80" friendlyPos="true" lines="192 015 116"/>
+    <busStop id="bs_2825" name="CEG_Antanimena" lane="28930225#1_1" startPos="131.56" friendlyPos="true" lines="122"/>
+    <busStop id="bs_2826" name="Arret_Total_Ankazotokana" lane="28915526#0_1" startPos="7.77" endPos="17.77" friendlyPos="true" lines="129 164 196 182mena 182 manga"/>
+    <busStop id="bs_2826_3" name="Arret_Poste _Ambanidia" lane="28884526#3_1" startPos="87.22" friendlyPos="true" lines="122 180 129 164"/>
+    <busStop id="bs_2826_4" name="Arrer_Alliance_Antsahabe" lane="28915526#4_1" startPos="166.41" endPos="176.41" friendlyPos="true" lines="129 196 164"/>
+    <busStop id="bs_2828_5_1" name="Arret_Jirama_Mandroseza" lane="-28884220#5_1" startPos="188.31" endPos="198.31" friendlyPos="true" lines="015 E_Alasora 194_maintso"/>
+    <busStop id="bs_2847_8" name="Arret_Sampanana_Analamahitsy_Nanisana" lane="-28864547#8_1" startPos="12.06" endPos="22.06" friendlyPos="true" lines="194"/>
+    <busStop id="bs_2847_8_1" name="Arret_Sampanana_Analamahitsy" lane="28864547#8_1" startPos="16.65" endPos="26.65" friendlyPos="true" lines="194"/>
+    <busStop id="bs_2851" name="Arrêt_Sampanana_Mahazoarivo" lane="28884351#0_1" startPos="58.35" endPos="68.35" friendlyPos="true" lines="122 113"/>
+    <busStop id="bs_2851_2" name="Arret_Tsena_Mahazoarivo" lane="-28884351#2_1" startPos="493.98" endPos="503.98" friendlyPos="true" lines="122 113"/>
+    <busStop id="bs_2854" name="Terminus_164_137_129_Analakely" lane="28929154_1" startPos="17.11" endPos="34.11" friendlyPos="true" lines="164 137 129"/>
+    <busStop id="bs_2856" name="arrêt_Andravoahangy_Ambony_Rasalama" lane="-28916056_1" startPos="173.82" endPos="183.82" friendlyPos="true" lines="122 160 166 180 147 146"/>
+    <busStop id="bs_2865" name="Arret_GerbOr_Mahamasina" lane="28914865#4_1" startPos="51.86" endPos="61.86" friendlyPos="true" lines="015 184 017"/>
+    <busStop id="bs_2865_5" name="Arret_Trente_67ha" lane="28823665#5_1" startPos="15.00" endPos="25.00" friendlyPos="true" lines="119 172"/>
+    <busStop id="bs_2866_0" name="Arret_Anosizato_fasan-karana" lane="28823466#0_1" startPos="38.51" endPos="48.51" friendlyPos="true" lines="194 140"/>
+    <busStop id="bs_2866_0_1" name="Arret_Anosizato" lane="-28823466#0_1" startPos="15.96" endPos="25.96" friendlyPos="true" lines="194 140"/>
+    <busStop id="bs_2866_1" name="Arret_Maharoho" lane="28884766#1_1" startPos="178.07" endPos="188.07" friendlyPos="true" lines="015 017 184"/>
+    <busStop id="bs_2866_2" name="Arret_Maharoho" lane="-28884766#2_1" startPos="414.45" endPos="424.45" friendlyPos="true" lines="015 017 184"/>
+    <busStop id="bs_2866_3" name="Arret_306_Manakambahiny" lane="28884766#3_1" startPos="142.87" endPos="152.87" friendlyPos="true" lines="015 017 184"/>
+    <busStop id="bs_2866_3_1" name="Arret_306_Manakambahiny_tsimbazaza" lane="-28884766#3_1" startPos="73.20" endPos="83.20" friendlyPos="true" lines="015 017 184"/>
+    <busStop id="bs_2866_5" name="Arret_Fasan-karana_Ankadimbahoaka" lane="28823466#5_1" startPos="62.23" endPos="82.23" friendlyPos="true" lines="140 194"/>
+    <busStop id="bs_2866_6" name="Arret_Fasan-karana" lane="-28823466#6_1" startPos="603.97" endPos="623.97" friendlyPos="true" lines="140 194"/>
+    <busStop id="bs_2866_8" name="Arret_Sampanana_Fasan-karana" lane="-28823466#8_1" startPos="15.98" endPos="25.98" friendlyPos="true" lines="140 194"/>
+    <busStop id="bs_2870_1" name="Arret_Ankadindratombo_Mandroseza" lane="-28821470#1_1" startPos="627.27" endPos="637.27" friendlyPos="true" lines="194_maintso E-Alasora"/>
+    <busStop id="bs_2870_1_1" name="Arret_Ankadindratombo" lane="28821470#1_1" startPos="30.95" endPos="40.95" friendlyPos="true" lines="194_maintso E_Alasora"/>
+    <busStop id="bs_2872" name="Arret_Sampanana_Andohanimandroseza" lane="28884472#4_1" startPos="1.77" endPos="11.77" friendlyPos="true" lines="129 164 180 196 182"/>
+    <busStop id="bs_2872_10" name="Arret_Clique_Ambatoroka" lane="28884472#10_1" startPos="217.87" endPos="227.87" friendlyPos="true" lines="129 164 180 196 182"/>
+    <busStop id="bs_2872_11" name="Arret_Clinique_Ambatoroka" lane="-28884472#11_1" startPos="177.73" endPos="187.73" friendlyPos="true" lines="129 164 180 196 182"/>
+    <busStop id="bs_2872_12" name="Arret_Orostom _Ambatoroka" lane="-28884472#12_1" startPos="6.94" endPos="16.93" friendlyPos="true" lines="129 164 180 196 182_mena 182_manga"/>
+    <busStop id="bs_2872_12_2" name="Arret_Orostom" lane="28884472#12_1" startPos="90.71" friendlyPos="true" lines="129 164 180 196 182"/>
+    <busStop id="bs_2872_15" name="Arret_Fiavo_Sampanana" lane="-28884472#15_1" startPos="15.16" endPos="25.16" friendlyPos="true" lines="129 164 180 196 182_mena 182_manga"/>
+    <busStop id="bs_2872_2" name="Arret_Ankadimbahoaka_Androndra" lane="28884272#2_1" startPos="24.58" endPos="34.58" friendlyPos="true" lines="113 104"/>
+    <busStop id="bs_2872_4" name="Arret_Sampanana_Andohanimandroseza" lane="-28884472#4_1" startPos="146.61" endPos="156.61" friendlyPos="true" lines="129 164 180 196"/>
+    <busStop id="bs_2872_6" name="Arret_Smap_Ambatoroka" lane="28884472#6_1" startPos="4.58" endPos="14.58" friendlyPos="true" lines="129 164 180 196 182"/>
+    <busStop id="bs_2872_7" name="Arret_Smap" lane="-28884472#7_1" startPos="8.50" endPos="18.50" friendlyPos="true" lines="129 164 180 196 182_mena 182_manga"/>
+    <busStop id="bs_2872_8" name="Arret_Cyprès_Ambatoroka" lane="28884472#8_1" startPos="6.48" endPos="16.48" friendlyPos="true" lines="129 164 196 180 182"/>
+    <busStop id="bs_2872_9" name="Arret_Sampanana_Ambohimiandra" lane="-28884472#9_1" startPos="74.35" endPos="84.35" friendlyPos="true" lines="129 164 180 196 182"/>
+    <busStop id="bs_2876" name="Arrêt_Fiangonana_Ambatoroka" lane="-28884376#5_1" startPos="50.55" endPos="60.55" friendlyPos="true" lines="122 194 192"/>
+    <busStop id="bs_2876_3" name="Arret_Fiangonana_Ambatoroka" lane="28884376#3_1" startPos="36.46" endPos="46.46" friendlyPos="true" lines="122-139" personCapacity="15"/>
+    <busStop id="bs_2876_5" name="Arret_UCM_Ambatoroka" lane="28884376#5_1" startPos="214.99" endPos="224.99" friendlyPos="true" lines="122 192 194"/>
+    <busStop id="bs_2879" name="Arret_Soarano" lane="28915979#1_1" startPos="93.53" endPos="103.53" friendlyPos="true" lines="186 183 109"/>
+    <busStop id="bs_2884" name="Arrêt_Pompe _Ambanidia" lane="-28884784#7_1" startPos="205.64" endPos="215.64" friendlyPos="true" lines="122"/>
+    <busStop id="bs_2884_5" name="Arret_Tfm_Ambanidia" lane="28884784#5_1" startPos="30.54" endPos="40.54" friendlyPos="true" lines="122 180 192"/>
+    <busStop id="bs_2886_1" name="Arret_Anosizato_Antsinanana" lane="28823586_1" startPos="3.45" endPos="13.45" friendlyPos="true"/>
+    <busStop id="bs_2887" name="Arret_Ambondrona" lane="28915887_1" startPos="12.40" endPos="22.40" friendlyPos="true"/>
+    <busStop id="bs_2890" name="Arrêt_Nane _Ampandrana" lane="-28884790#6_1" startPos="0.33" endPos="10.33" friendlyPos="true" lines="122 160 166 180"/>
+    <busStop id="bs_2890_0" name="Arret_Stop_Antsapanimahazo" lane="28884790#0_1" startPos="5.68" endPos="15.68" friendlyPos="true" lines="122 160 166"/>
+    <busStop id="bs_2890_1" name="Arret_Total_Belair" lane="-28884790#1_1" startPos="28.97" endPos="38.97" friendlyPos="true" lines="122 160 166 180"/>
+    <busStop id="bs_2890_4" name="Arret_Epp_Ampandrana" lane="28884790#4_1" startPos="12.25" endPos="22.25" friendlyPos="true" lines="122 160 166 180"/>
+    <busStop id="bs_2891_4" name="Arret_Ambany_tetezana_Behoririka" lane="-28916012#4_1" startPos="54.49" endPos="64.49" friendlyPos="true" lines="109 157 126 183 186"/>
+    <busStop id="bs_2893_2" name="Arret_Pantekotista" lane="-28884793#2_1" startPos="2.12" endPos="12.12" friendlyPos="true" lines="122"/>
+    <busStop id="bs_2893_3" name="Arret-Tranobe" lane="28884793#3_1" startPos="4.31" endPos="14.31" friendlyPos="true" lines="122"/>
+    <busStop id="bs_2896" name="Ambony_Tetezana _Behoririka" lane="-28916096#0_1" startPos="146.27" endPos="156.27" friendlyPos="true" lines="122160 166 180 147 146"/>
+    <busStop id="bs_2896_3" name="Arret_Ambatomitsangana_Ankadifotsy" lane="28916096#3_1" startPos="146.71" endPos="156.71" friendlyPos="true" lines="122 166 160 180"/>
+    <busStop id="bs_2897_1" name="Arret_Ambony Tetezana - Behoririka_Ho_Any_Ankadifotsy" lane="28916097_1" startPos="6.50" endPos="16.50" friendlyPos="true" lines="122 166 160 180"/>
+    <busStop id="bs_2905_0" name="Arret_Andohatapenaka" lane="-29078805#0_1" startPos="128.39" endPos="138.39" friendlyPos="true" lines="D_Ivato"/>
+    <busStop id="bs_2934" name="Primius_164_Ambohipo" lane="29079034#0_1" startPos="134.54" endPos="144.54" friendlyPos="true" lines="164"/>
+    <busStop id="bs_2960" name="Arret_Gazety_Ankorahotra" lane="29078960#0_1" startPos="17.45" endPos="27.45" friendlyPos="true" lines="119 166 160 194"/>
+    <busStop id="bs_2962" name="Arret_Sampanana_Ampasanimalo" lane="29078962#0_1" startPos="1.32" endPos="11.32" friendlyPos="true" lines="119 160 166 128"/>
+    <busStop id="bs_2962_2" name="Arret_Tamboho_Ampasanimalo" lane="29078962#2_1" startPos="121.15" endPos="131.15" friendlyPos="true" lines="119 160 166 128"/>
+    <busStop id="bs_2962_3" name="Arret_Pavé_Tsiadana" lane="29078962#3_1" startPos="94.31" endPos="104.31" friendlyPos="true" lines="119 128 160 166"/>
+    <busStop id="bs_2962_5" name="Arret_Akondro_Tsiadana" lane="29078962#5_1" startPos="78.01" endPos="88.01" friendlyPos="true" lines="119 128 160 166"/>
+    <busStop id="bs_2983_8" name="Primus_194_Mausolée" lane="-29078983#8_1" startPos="4.86" endPos="14.86" friendlyPos="true" lines="194"/>
+    <busStop id="bs_3020" name="Arret_Poste_67ha" lane="301651720#2_1" startPos="5.33" endPos="15.33" friendlyPos="true" lines="119 172 146 147"/>
+    <busStop id="bs_3056_1" name="Arret_Tsena_Andravoahangy_Anjanahary" lane="-301630456_1" startPos="109.48" endPos="119.48" friendlyPos="true" lines="109 126 152 186"/>
+    <busStop id="bs_3097" name="Arret_Scav_Antsakaviro" lane="301619097_1" startPos="13.01" endPos="23.01" friendlyPos="true" lines="122 160 166 180"/>
+    <busStop id="bs_3098" name="Arrêt_Fivondronana _Ampandrana" lane="-301619098#0_1" startPos="5.45" endPos="15.45" friendlyPos="true" lines="122 160 166 180"/>
+    <busStop id="bs_3125_1" name="arret_Complexe_Ampefiloha" lane="31509525_1" startPos="152.28" endPos="162.28" friendlyPos="true" lines="119 147 146 183"/>
+    <busStop id="bs_3170_1" name="Arret_Jovena_67ha" lane="312190370_1" startPos="1.99" endPos="11.99" friendlyPos="true" lines="147 146 178"/>
+    <busStop id="bs_3410" name="Arret_Poste_Antanimena" lane="343197510_1" startPos="85.51" endPos="95.51" friendlyPos="true" lines="122 180 166 160 147 146"/>
+    <busStop id="bs_3852" name="Arret_Mascotte" lane="384991852#0_1" startPos="9.11" endPos="19.11" friendlyPos="true" lines="147"/>
+    <busStop id="bs_3862" name="Arret_Sampanana_Anjanahary" lane="380166062_1" startPos="2.11" endPos="12.11" friendlyPos="true" lines="194"/>
+    <busStop id="bs_3862_1" name="Arret_Anjanahary" lane="380166062_1" startPos="393.91" endPos="403.91" friendlyPos="true" lines="109 152 126"/>
+    <busStop id="bs_3972" name="Arret_EPP_Soarano" lane="397633972#0_1" startPos="14.19" endPos="24.19" friendlyPos="true" lines="129 164 196"/>
+    <busStop id="bs_4015" name="Terminus_196_Soarano" lane="-40149415_1" startPos="36.43" endPos="46.43" friendlyPos="true" lines="196"/>
+    <busStop id="bs_4027" name="Arret_Buffare_Ampasanimalo" lane="402955427#1_1" startPos="41.58" endPos="51.58" friendlyPos="true" lines="119 160166"/>
+    <busStop id="bs_4030_1" name="Arret_Antanimena_Malacam" lane="402955430_1" startPos="24.48" endPos="34.48" friendlyPos="true" lines="147 146"/>
+    <busStop id="bs_4031" name="Arret_Pharmacie Hanitra _Antsakaviro" lane="402955431#0_1" startPos="1.08" endPos="11.08" friendlyPos="true" lines="122 180"/>
+    <busStop id="bs_4037" name="Arret_Advantista_Ambohijatovo" lane="40163737#5_1" startPos="9.69" endPos="19.69" friendlyPos="true" lines="129 164 196"/>
+    <busStop id="bs_4039" name="Arret_Mascotte _Vers_Anosy" lane="40163139#1_1" startPos="97.67" endPos="107.67" friendlyPos="true" lines="119 147 146"/>
+    <busStop id="bs_4157" name="Arret_ENS_Ampefiloha" lane="414267257#1_1" startPos="115.69" endPos="125.69" friendlyPos="true" lines="119 183 147 146 178"/>
+    <busStop id="bs_4157_0" name="Arret_barrière_Ampefiloha" lane="414267257#0_1" startPos="36.63" endPos="46.63" friendlyPos="true" lines="119 182_manga 147 146"/>
+    <busStop id="bs_4168" name="Arret_Sampanana_Ampasanimalo" lane="414024868_1" startPos="735.96" friendlyPos="true" lines="119 160 166 128"/>
+    <busStop id="bs_4168_1" name="Arret_Pavé_Tsiadana" lane="414024868_1" startPos="283.94" endPos="293.94" friendlyPos="true" lines="119 128 160 166"/>
+    <busStop id="bs_4309_0" name="Arret_Andavamamba_Vers_Anosy" lane="431446409#0_1" startPos="17.06" endPos="27.06" friendlyPos="true" lines="119 183 147 146 178"/>
+    <busStop id="bs_4506" name="Arret_3_chemins_Ambohipo" lane="45023506#1_1" startPos="12.55" endPos="22.55" friendlyPos="true" lines="180 196 182_manga 182_mena"/>
+    <busStop id="bs_4506_1" name="Arret_Sampanana_Ambohipo" lane="-45023506#1_1" startPos="346.40" endPos="356.40" friendlyPos="true" lines="180 196 182_manga 182_mena"/>
+    <busStop id="bs_4506_2" name="Arret_Akondro_Ambolokandrina" lane="45023506#1_1" startPos="339.26" endPos="349.26" friendlyPos="true" lines="180 196 182_mena 182_manga"/>
+    <busStop id="bs_4506_5" name="Arret_tsena_Ambolokandrina" lane="-45023506#5_1" startPos="143.05" endPos="153.05" friendlyPos="true" lines="180196 182_mena 182_manga"/>
+    <busStop id="bs_4506_5_1" name="Arret_tsena_Ambolokandrina" lane="45023506#5_1" startPos="19.65" endPos="29.65" friendlyPos="true" lines="180 196 182_mena 182_manga"/>
+    <busStop id="bs_4506_6" name="Arret_Garage_Ambolokandrina_Ambohipo" lane="-45023506#6_1" startPos="5.58" endPos="15.58" friendlyPos="true" lines="196 180 182_mena 182_manga"/>
+    <busStop id="bs_4514_0" name="Arret_Nanisana_Ampasapito" lane="-45189914#0_1" startPos="6.07" endPos="16.07" friendlyPos="true" lines="147_D 194"/>
+    <busStop id="bs_4514_0_1" name="Arret_Sapin_Nanisana" lane="45189914#0_1" startPos="9.43" endPos="19.43" friendlyPos="true" lines="194 147_D"/>
+    <busStop id="bs_4560" name="Parmacie_Ankadifotsy" lane="-45368060_1" startPos="87.90" endPos="97.90" friendlyPos="true" lines="122 146 147 180"/>
+    <busStop id="bs_4597_1" name="Arret_Ampasapito" lane="-45189397_1" startPos="149.12" endPos="159.12" friendlyPos="true" lines="194 147"/>
+    <busStop id="bs_4884" name="Arret_tetezana_Ampasika" lane="48926484#0_1" startPos="14.68" endPos="24.68" friendlyPos="true" lines="133"/>
+    <busStop id="bs_5127_1_1" name="Primius_119_Ankatso" lane="-517613027_1" startPos="16.89" endPos="26.89" friendlyPos="true" lines="119"/>
+    <busStop id="bs_5127_1_2" name="Primius_128_Ankatso" lane="-517613027_1" startPos="40.58" endPos="50.58" friendlyPos="true" lines="128"/>
+    <busStop id="bs_5204" name="Primius_017_Ambohipo" lane="528675704_1" startPos="14.68" endPos="24.68" friendlyPos="true" lines="017"/>
+    <busStop id="bs_5204_1" name="Terminus_Ambohipo" lane="-528675704_1" startPos="5.69" endPos="15.69" friendlyPos="true" lines="129 017"/>
+    <busStop id="bs_5242" name="Arret_Tavoahangy_Andohan-Analakely" lane="528688442_1" startPos="0.00" endPos="19.00" friendlyPos="true" lines="129 164 196 133"/>
+    <busStop id="bs_5250_1" name="Arret_Vatobe_67ha" lane="525162450_1" startPos="7.29" endPos="17.29" friendlyPos="true" lines="D_ivato"/>
+    <busStop id="bs_5256" name="Arrêt_Rasalama" lane="52733156#0_1" startPos="69.40" endPos="79.40" friendlyPos="true" lines="122 146 147 180 160 166"/>
+    <busStop id="bs_5413" name="Arret_Fasika_Ankadimbahoaka" lane="54484413#7_1" startPos="5.14" endPos="15.14" friendlyPos="true" lines="194"/>
+    <busStop id="bs_5413_1" name="Arret_Tetezana_tvplus" lane="-54484413#1_1" startPos="503.52" endPos="513.52" friendlyPos="true" lines="194 163"/>
+    <busStop id="bs_5413_1_1" name="Arret_Sampanana_Tvplus" lane="54484413#1_1" startPos="19.15" endPos="29.15" friendlyPos="true" lines="194 163"/>
+    <busStop id="bs_5413_2" name="Arret_Jovena_Androndra" lane="54484413#2_1" startPos="52.58" endPos="62.58" friendlyPos="true" lines="194 163"/>
+    <busStop id="bs_5413_3" name="Arret_Jovena_Androndra_vers_Bypass" lane="-54484413#3_0" startPos="133.79" endPos="143.79" friendlyPos="true" lines="194 163"/>
+    <busStop id="bs_5420_3" name="Arret_Imatep_Androhibe" lane="542503720#3_1" startPos="34.00" endPos="44.00" friendlyPos="true" lines="194"/>
+    <busStop id="bs_5565" name="Arrêt_Mahazoarivo" lane="-55369765_1" startPos="209.66" endPos="219.66" friendlyPos="true" lines="122 113"/>
+    <busStop id="bs_5565_1" name="Primius_122_Mahazoarivo" lane="55369765_1" startPos="2.78" endPos="12.78" friendlyPos="true" lines="122 113"/>
+    <busStop id="bs_5602_1" name="Arret_Ankadimbahoaka" lane="565439302_1" startPos="12.89" endPos="22.89" friendlyPos="true" lines="137 113 140 172 163 135 139"/>
+    <busStop id="bs_5603" name="Arret_Galana_Ankadimbahoaka" lane="565439303.40_2" startPos="10.39" endPos="20.39" friendlyPos="true" lines="172 137 194"/>
+    <busStop id="bs_5603_1" name="Arret_Antaninkatsaka_Itaosy" lane="566309503#1_1" startPos="139.45" endPos="149.45" friendlyPos="true" lines="133_cite 133_hopitaly 133_ambohimamory"/>
+    <busStop id="bs_5603_2" name="Arret_Horizon_Itaosy" lane="-566309503#2_2" startPos="29.15" endPos="59.16" friendlyPos="true" lines="133_cite 133_Hopitaly 133_Ambohimamory"/>
+    <busStop id="bs_5606_1" name="Terminus_184_Mahamasina" lane="566072906_1" startPos="13.98" endPos="23.98" friendlyPos="true" lines="184 128"/>
+    <busStop id="bs_5628_1" name="Arret_Fiaro_Ampefiloha" lane="569419828_1" startPos="23.58" endPos="53.58" friendlyPos="true" lines="119 182_manga 133 146 147 183"/>
+    <busStop id="bs_5649_1" name="Terminus_Ambotrimanjaka" lane="566974049_1" startPos="11.84" endPos="21.84" friendlyPos="true" lines="ligne_D"/>
+    <busStop id="bs_5649_1_1" name="Terminus_119_Ny_Havana" lane="566974049_1" startPos="255.49" endPos="265.49" friendlyPos="true" lines="119"/>
+    <busStop id="bs_5671" name="Arret_Ambohijatovo" lane="562410571_1" startPos="17.55" endPos="40.55" friendlyPos="true" lines="129 164 196 147 146"/>
+    <busStop id="bs_5679_1" name="Terminus_116_Mandroseza" lane="-562415279#1_1" startPos="0.94" endPos="10.94" friendlyPos="true" lines="116 015"/>
+    <busStop id="bs_5710" name="Arret_Fokontany_Andavamamba" lane="578006710#1_1" startPos="19.78" endPos="29.78" friendlyPos="true" lines="119 147 146 183"/>
+    <busStop id="bs_5736_9" name="Arret_College-de-france-Ankadilalana" lane="-577152036#9_1" startPos="1.80" endPos="11.80" friendlyPos="true" lines="015 017 184"/>
+    <busStop id="bs_5745" name="Terminus_Ankatso" lane="576656045_1" startPos="9.03" endPos="39.03" friendlyPos="true" lines="119 128 166 160"/>
+    <busStop id="bs_5759" name="Terminus 194_Antanimora" lane="-579843059_1" startPos="11.41" endPos="21.41" friendlyPos="true" lines="194"/>
+    <busStop id="bs_5771_1" name="Arret_Gastro_Analamahitsy" lane="576696071#1_1" startPos="35.56" endPos="45.56" friendlyPos="true" lines="194"/>
+    <busStop id="bs_5806_1" name="Arrêt_Manjaka_retour" lane="-580822006#1_1" startPos="23.28" endPos="33.28" friendlyPos="true" lines="H, 192, 163" personCapacity="22" color="green"/>
+    <busStop id="bs_5929_1" name="Arret_Cité_Analamahitsy" lane="594046129_1" startPos="5.29" endPos="15.29" friendlyPos="true" lines="194"/>
+    <busStop id="bs_5931" name="Arret_Ankadimbahoaka_Tsimbazaza" lane="591763431#1_1" startPos="14.17" endPos="24.17" friendlyPos="true" lines="135"/>
+    <busStop id="bs_5931_1" name="Arret_Ankadimbahoaka_Fasan-karana" lane="-591763431#1_1" startPos="222.33" endPos="232.33" friendlyPos="true" lines="165_C"/>
+    <busStop id="bs_5971_1_3" name="Primius_160_166_Ankatso" lane="-593042071_1" startPos="16.21" endPos="26.21" friendlyPos="true" lines="160 166"/>
+    <busStop id="bs_5976" name="Arret_Ambohijatovo" lane="591805476#1_1" startPos="0.00" endPos="20.00" friendlyPos="true" lines="129 164 196 119 182_manga"/>
+    <busStop id="bs_5993" name="Arret_Buffare_Ampasanimalo" lane="591765193#0_1" startPos="193.35" endPos="203.35" friendlyPos="true" lines="119 160 166"/>
+    <busStop id="bs_5996" name="Arret_Pharmacie_Antanimena" lane="591765196_1" startPos="74.99" endPos="84.99" friendlyPos="true" lines="122 166 160 180"/>
+    <busStop id="bs_6010" name="Arrêt_Fokontany_Antsakaviro" lane="-605488410_1" startPos="0.10" friendlyPos="true" lines="122 180"/>
+    <busStop id="bs_6014_0" name="Arret_CDA_Andohatapenaka" lane="-60348014#0_1" startPos="64.84" endPos="74.84" friendlyPos="true" lines="D_Ivato"/>
+    <busStop id="bs_6028_1" name="Arret_Shell_Mandroseza" lane="-605943528#1_1" startPos="14.93" endPos="24.93" friendlyPos="true" lines="015 194_maintso"/>
+    <busStop id="bs_6082_0" name="Arret_Paraky_vers_Anosy" lane="605945682#0_1" startPos="492.35" endPos="502.35" friendlyPos="true" lines="113 137"/>
+    <busStop id="bs_6082_2" name="Jirama_Andrefanambohijanahary_Anosy" lane="605945682#2_1" startPos="19.13" endPos="29.13" friendlyPos="true" lines="154 137 113"/>
+    <busStop id="bs_6082_6" name="Arret_Toby_Fiadanana" lane="605945682#6_1" startPos="45.74" endPos="55.74" friendlyPos="true" lines="154 113 137"/>
+    <busStop id="bs_6237" name="Primius_129_Ambihipo" lane="620504837_1" startPos="3.48" endPos="13.48" friendlyPos="true" lines="129"/>
+    <busStop id="bs_6378_1" name="Arret_Fiangonana_Andavamamba" lane="639908578_1" startPos="6.98" endPos="16.98" friendlyPos="true" lines="119 147 146 183"/>
+    <busStop id="bs_6807" name="arret_sampanana_mahazoarivo" lane="-685162907#5_1" startPos="10.61" endPos="20.61" friendlyPos="true" lines="122-139" personCapacity="15"/>
+    <busStop id="bs_6807_0" name="Arret_sampanana_Mandroseza" lane="-685162907#0_1" startPos="53.03" endPos="63.03" friendlyPos="true" lines="122-139" personCapacity="15"/>
+    <busStop id="bs_6807_1" name="Arrêt_Sampanana_Mandroseza" lane="685162907#0_1" startPos="45.56" endPos="55.56" friendlyPos="true" lines="122"/>
+    <busStop id="bs_6823_1" name="Terminus_163_Alasora" lane="681954223_1" startPos="72.31" endPos="82.31" friendlyPos="true" lines="163"/>
+    <busStop id="bs_6885_1" name="Arret_Fiaro_Ampefiloha" lane="683253985_1" startPos="82.46" endPos="102.46" friendlyPos="true" lines="119 182_manga 183 146 147"/>
+    <busStop id="bs_7747_2" name="Arret_Paraky_vers_Ankadimbahoaka" lane="77338147#2_1" startPos="7.06" endPos="17.06" friendlyPos="true" lines="113 137"/>
+    <busStop id="bs_8979" name="Arret_Shell_Bypass" lane="896547679#1_1" startPos="40.20" endPos="50.20" friendlyPos="true" lines="194"/>
+    <busStop id="bs_8980" name="Arret_Gazety_sampanana_Ankadimabahoaka" lane="896547680_1" startPos="6.89" endPos="16.89" friendlyPos="true" lines="194 163"/>
+    <busStop id="bs_9140" name="Arret_Fasika_vers_Bypass" lane="-913527440_1" startPos="50.80" endPos="60.80" friendlyPos="true" lines="194 163"/>
+    <busStop id="bs_9154_1" name="Arret_Mahamasina" lane="912627254_1" startPos="29.68" endPos="39.68" friendlyPos="true" lines="119 147 178 146"/>
+    <busStop id="pr_1014650" name="Primus_Ligne_G" lane="46506338_1" startPos="38.75" endPos="48.75" friendlyPos="true" lines="G" personCapacity="22" color="yellow"/>
+    <busStop id="pr_1015792" name="Primus_Ligne_140" lane="-565439305_1" startPos="19.20" endPos="29.20" friendlyPos="true" lines="140," personCapacity="22" color="yellow"/>
+    <busStop id="ter_10120056" name="Arrêt_Anosy_zaridaina" lane="28915101#1_1" startPos="67.07" endPos="87.07" friendlyPos="true" lines="109, 126,183, 186, 154, 119" personCapacity="22" color="blue"/>
+    <busStop id="ter_1012882" name="Primus_162_Anosizato" lane="430100379_1" startPos="11.03" endPos="21.03" friendlyPos="true" lines="162, 140, G" personCapacity="22" color="blue"/>
+    <busStop id="ter_10128821" name="Terminus_Ligne_165_Anosibe" lane="28823166.31_1" startPos="31.05" endPos="41.05" friendlyPos="true" lines="165" personCapacity="22" color="blue"/>
+    <busStop id="ter_1012892" name="Terminus_Ligne_140_Analakely" lane="28929223#1_1" startPos="33.75" endPos="43.75" friendlyPos="true" lines="140" personCapacity="22" color="blue"/>
+    <busStop id="ter_10128921" name="Terminus_ligne_110_Analakely" lane="28928987.33_1" startPos="24.93" endPos="34.93" friendlyPos="true" lines="110" personCapacity="22" color="blue"/>
+    <busStop id="ter_1014836" name="Terminus_G" lane="566115264_1" startPos="12.96" endPos="22.96" friendlyPos="true" lines="G" personCapacity="22" color="blue"/>
+    <busStop id="ter_1015804" name="TERMINUS H" lane="-532005804#1_1" startPos="53.86" endPos="63.86" friendlyPos="true" lines="H" personCapacity="22" color="blue"/>
+</additional>
